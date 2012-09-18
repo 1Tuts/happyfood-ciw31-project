@@ -14,7 +14,7 @@
 
 ###The Team
 * [**Ali Mihandoost**](http://github.com/Alimd) Teacher  & Technical Manager
-* [**Amir Balali**](https://github.com/amirbll) Project Manager / Graphic Designer / Developer
+* [**Amir Balali**](https://github.com/amirbll) Project Manager / Developer
 * [**ehsan abdolahi**](https://github.com/ehsanab) Designer / Developer
 * [**Hamed Akbari**](https://github.com/HamedAkbari) Designer / Developer
 
