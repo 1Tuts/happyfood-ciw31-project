@@ -4,7 +4,7 @@
 
 ###Contributing
 
-* Check our project's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/VealBurger/issues)
+* Check our project's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/HappyFood/issues)
 
 
 ###Building Technologies
