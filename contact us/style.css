@@ -1,0 +1,89 @@
+.container {
+	outline	: 1px solid black;
+	width	: 100%;
+}
+
+div.submenu {
+	outline	: 1px dashed red;
+	width	: 200px;
+	min-height: 700px;
+}
+
+section.contact {
+	outline	: 1px dashed red;
+	width	: 587px;
+	min-height	: 700px;
+	margin-left	: 200px;
+	overflow: scroll;
+}
+
+div.logo {
+	outline		: 1px dashed red;
+	min-height	: 150px;
+}
+
+menu.submenu {
+	outline		: 1px dashed red;
+	min-height	: 300px;
+}
+
+section.icons {
+	outline		: 1px dashed red;
+	min-height	: 50px;
+}
+
+section.nextpic{
+	outline		: 1px dashed red;
+	min-height	: 50px;
+	margin-top	: 620px;
+}
+
+section.head{
+	outline		: 1px dashed blue;
+	min-height	: 200px;
+}
+
+section.address{
+	outline		: 1px dashed blue;
+	min-height	: 180px;
+}
+
+section.newyork{
+	outline		: 1px dashed blue;
+	min-height	: 170px;
+}
+
+section.california{
+	outline		: 1px dashed blue;
+	min-height	: 170px;
+}
+
+div.message {
+	outline		: 1px dashed blue;
+	min-height	: 400px;
+}
+
+section.name {
+	outline		: 1px dashed blue;
+	min-height	: 30px;
+}
+
+section.email {
+	outline		: 1px dashed blue;
+	min-height	: 30px;
+}
+
+section.text {
+	outline		: 1px dashed blue;
+	min-height	: 300px;
+}
+
+section.send {
+	outline		: 1px dashed blue;
+	min-height	: 35px;
+}
+
+div.copyright {
+	outline		: 1px dashed blue;
+	min-height	: 45px;
+}
