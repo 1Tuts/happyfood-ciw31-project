@@ -14,7 +14,8 @@ section.contact {
 	width	: 587px;
 	min-height	: 700px;
 	margin-left	: 200px;
-	overflow: scroll;
+	overflow	: scroll;
+	padding		: 10px;
 }
 
 div.logo {
@@ -35,17 +36,25 @@ section.icons {
 section.nextpic{
 	outline		: 1px dashed red;
 	min-height	: 50px;
-	margin-top	: 620px;
+	margin-top	: 550px;
+}
+
+div.mapandic {
+	outline		: 1px dashed red;
+	min-height	: 680px;
+	padding		: 10px;
 }
 
 section.head{
 	outline		: 1px dashed blue;
-	min-height	: 200px;
+	min-height	: 180px;
+	padding		: 10px;
 }
 
 section.address{
 	outline		: 1px dashed blue;
 	min-height	: 180px;
+	padding		: 10px;
 }
 
 section.newyork{
@@ -61,6 +70,7 @@ section.california{
 div.message {
 	outline		: 1px dashed blue;
 	min-height	: 400px;
+	padding		: 10px;
 }
 
 section.name {
@@ -86,4 +96,9 @@ section.send {
 div.copyright {
 	outline		: 1px dashed blue;
 	min-height	: 45px;
+}
+
+section.map {
+	outline		: 1px dashed blue;
+	min-height	: 30px;
 }
