@@ -47,13 +47,13 @@ div.mapandic {
 
 section.head{
 	outline		: 1px dashed blue;
-	min-height	: 180px;
+	min-height	: 160px;
 	padding		: 10px;
 }
 
 section.address{
 	outline		: 1px dashed blue;
-	min-height	: 180px;
+	min-height	: 170px;
 	padding		: 10px;
 }
 
