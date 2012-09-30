@@ -1,0 +1,71 @@
+.container {
+	outline	: 1px solid black;
+	width	: 100%;
+}
+
+div.submenu {
+	outline	: 1px dashed red;
+	width	: 200px;
+	min-height: 700px;
+}
+
+section.contact {
+	outline	: 1px dashed red;
+	width	: 587px;
+	min-height	: 700px;
+	margin-left	: 200px;
+	overflow	: scroll;
+	padding		: 10px;
+}
+
+div.logo {
+	outline		: 1px dashed red;
+	min-height	: 150px;
+}
+
+menu.submenu {
+	outline		: 1px dashed red;
+	min-height	: 300px;
+}
+
+section.icons {
+	outline		: 1px dashed red;
+	min-height	: 50px;
+}
+
+section.nextpic{
+	outline		: 1px dashed red;
+	min-height	: 50px;
+	margin-top	: 550px;
+}
+
+section.head{
+	outline		: 1px dashed blue;
+	min-height	: 180px;
+	padding		: 10px;
+}
+
+section.disc {
+	outline		: 1px dashed blue;
+	min-height	: 100px;
+}
+
+div.gallery {
+	outline		: 1px dashed blue;
+	min-height	: 200px;
+	padding		: 10px;
+
+	background	: #222222 url(images/bg-checker.png);
+	color		: white;
+	text-shadow	: 0 -1px 0 black;
+	font-size	: 16px;
+	line-height	: 1.625em;
+	font-family	: "Open Sans", "lucida grande", tahoma, sans-serif;
+	font-weight	: 600;
+	-webkit-font-smoothing : antialiased;
+}
+
+div.copyright {
+	outline		: 1px dashed blue;
+	min-height	: 45px;
+}
