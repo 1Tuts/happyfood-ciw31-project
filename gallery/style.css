@@ -65,6 +65,12 @@ div.gallery {
 	-webkit-font-smoothing : antialiased;
 }
 
+div.gallery a {
+	display		: block;
+	float: left;
+	margin-right: 10px;
+}
+
 div.copyright {
 	outline		: 1px dashed blue;
 	min-height	: 45px;
