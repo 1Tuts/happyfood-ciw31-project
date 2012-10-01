@@ -11,28 +11,31 @@ body {
 	background-position : center top;
 }
 
-div.leftm {
-	float: left;
+div.menu {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
 	padding-top: 31px;
-	width: 239px;
+	width: 220px;
 	min-height: 650px;
 	outline: 2px solid black;
 	background-color: #111;
 	opacity: 0.9;
-	background-repeat: no-repeat;
+	border-left: 5px solid gray;
 }
 
 div.logo {
-	margin-left: 36px;
+	margin-left: 25px;
 	width: 165px;
 	height: 165px;
 }
 
 nav.menu {
 	margin-top: 25px;
-	margin-left: 28px;
+	margin-left: 15px;
 	width: 187px;
-	height: 300px;
+	min-height: 300px;
 }
 
 nav.menu li {
@@ -58,18 +61,17 @@ nav.menu span {
 }
 
 div.icon {
-	margin-top: 40px;
-	margin-left: 30px;
+	margin: 40px auto 0;
 	width: 170px;
 	height: 40px;
 	padding-left: 20px; 
 }
 
 div.text {
-	margin-left: auto;
-	margin-right: 20px;
-	margin-top: 20px;
-	width: 350px;
-	min-height: 120px;
-	outline: 2px dashed black;
+	position 	: absolute;
+	right 		: 20px;
+	top 		: 20px;
+	width		: 350px;
+	min-height	: 120px;
+	outline		: 2px dashed black;
 }
