@@ -1,61 +1,124 @@
-.container {
-	outline	: 1px solid black;
-	width	: 100%;
+body {
+	position : fixed;
+	left     : 0;
+	right    : 0;
+	top      : 0;
+	bottom   : 0;
+	z-index	 :-1;
+	background-image    : url('../images/5.jpg');
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	background-position : center top;
 }
 
-div.submenu {
-	outline	: 1px dashed red;
-	width	: 200px;
-	min-height: 700px;
-}
+/*Menu*/
 
-section.contact {
-	outline	: 1px dashed red;
-	width	: 587px;
-	min-height	: 700px;
-	margin-left	: 200px;
-	overflow	: scroll;
-	padding		: 10px;
+div.menu {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	padding-top: 31px;
+	width: 220px;
+	min-height: 650px;
+	outline: 2px solid black;
+	background-color: #111;
+	opacity: 0.9;
+	border-left: 5px solid gray;
 }
 
 div.logo {
-	outline		: 1px dashed red;
-	min-height	: 150px;
+	margin-left: 25px;
+	width: 165px;
+	height: 165px;
 }
 
-menu.submenu {
-	outline		: 1px dashed red;
-	min-height	: 300px;
+nav.menu {
+	margin-top: 25px;
+	margin-left: 15px;
+	width: 187px;
+	min-height: 300px;
 }
 
-section.icons {
-	outline		: 1px dashed red;
-	min-height	: 50px;
+nav.menu li {
+	border-top: 1px solid gray;
 }
 
-section.nextpic{
-	outline		: 1px dashed red;
-	min-height	: 50px;
-	margin-top	: 550px;
+nav.menu li a {
+	color: #eee;
+	display: block;
+	padding: 15px;
+	padding-bottom: 20px;
 }
 
-section.head{
-	outline		: 1px dashed blue;
+nav.menu li:first-child {
+	border-top: none;
+}
+
+nav.menu span {
+	display: block;
+	color: #888;
+	margin-top: -15px;
+	margin-left: 15px;
+}
+
+div.icon {
+	margin: 40px auto 0;
+	width: 170px;
+	height: 40px;
+	padding-left: 20px; 
+}
+
+div.text {
+	position 	: absolute;
+	right 		: 20px;
+	top 		: 20px;
+	width		: 350px;
+	min-height	: 120px;
+	outline		: 2px dashed black;
+}
+
+
+/*Gallery Page*/
+
+section.contact {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	width		: 500px;
+	min-height	: 700px;
+	padding		: 10px;
+	margin-left: 225px;
+	opacity		: 0.9;
+	background-color: #111;
+}
+
+section.contact > a {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+section.contact section.head{
 	min-height	: 180px;
 	padding		: 10px;
+	text-transform  : capitalize;
+	color: #ddd;
+	-webkit-font-smoothing : antialiased;
+	border-bottom: 1px solid #aaa;
+	line-height: 100px;
 }
 
-section.disc {
-	outline		: 1px dashed blue;
-	min-height	: 100px;
+section.contact section.disc {
+	min-height	: 50px;
+	color: #ccc;
 }
 
-div.gallery {
-	outline		: 1px dashed blue;
+section.contact div.gallery {
 	min-height	: 200px;
 	padding		: 10px;
-
-	background	: #222222 url(images/bg-checker.png);
 	color		: white;
 	text-shadow	: 0 -1px 0 black;
 	font-size	: 16px;
@@ -65,13 +128,13 @@ div.gallery {
 	-webkit-font-smoothing : antialiased;
 }
 
-div.gallery a {
+section.contact div.gallery a {
 	display		: block;
 	float: left;
 	margin-right: 10px;
 }
 
-div.copyright {
-	outline		: 1px dashed blue;
+section.contact div.copyright {
 	min-height	: 45px;
+	color: #bbb;
 }
