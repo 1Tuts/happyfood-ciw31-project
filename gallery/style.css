@@ -5,7 +5,7 @@ body {
 	top      : 0;
 	bottom   : 0;
 	z-index	 :-1;
-	background-image    : url('../images/5.jpg');
+	background-image    : url('../images/Moriokamen.jpg');
 	background-repeat   : no-repeat;
 	background-size     : cover;
 	background-position : center top;
@@ -25,6 +25,7 @@ div.menu {
 	background-color: #111;
 	opacity: 0.9;
 	border-left: 5px solid gray;
+	z-index: -2;
 }
 
 div.logo {
@@ -49,6 +50,7 @@ nav.menu li a {
 	display: block;
 	padding: 15px;
 	padding-bottom: 20px;
+	text-decoration: none;
 }
 
 nav.menu li:first-child {
@@ -87,18 +89,20 @@ section.contact {
 	bottom: 0;
 	top: 0;
 	width		: 500px;
-	min-height	: 700px;
+	min-height	: 500px;
 	padding		: 10px;
 	margin-left: 225px;
 	opacity		: 0.9;
 	background-color: #111;
+	border-right: 8px solid gray;
 }
 
 section.contact > a {
 	display: block;
 	position: absolute;
-	right: 10px;
-	top: 10px;
+	right: 15px;
+	top: 15px;
+	z-index: 3;
 }
 
 section.contact section.head{
@@ -137,4 +141,39 @@ section.contact div.gallery a {
 section.contact div.copyright {
 	min-height	: 45px;
 	color: #bbb;
+}
+
+div.ribbon {
+	position: fixed;
+	left: 210px;
+	top: -10px;
+	z-index: 2; 
+}
+
+div.topcorner {
+	position: fixed;
+	left: -2px;
+	top: -2px;
+	background-repeat: no-repeat;
+}
+
+div.leftcorner {
+	position: fixed;
+	left: -2px;
+	bottom: -5px;
+	background-repeat: no-repeat;
+}
+
+div.cornerright {
+	position: fixed;
+	left: 720px;
+	top: -1px;
+	background-repeat: no-repeat;
+}
+
+div.cornerrightb {
+	position: fixed;
+	left: 720px;
+	bottom: -5px;
+	background-repeat: no-repeat;
 }
