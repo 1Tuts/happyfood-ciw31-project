@@ -5,7 +5,7 @@ body {
 	top      : 0;
 	bottom   : 0;
 	z-index	 :-1;
-	background-image    : url('images/5.jpg');
+	background-image    : url('images/Moriokamen.jpg');
 	background-repeat   : no-repeat;
 	background-size     : cover;
 	background-position : center top;
@@ -23,6 +23,7 @@ div.menu {
 	background-color: #111;
 	opacity: 0.9;
 	border-left: 5px solid gray;
+	z-index: -2;
 }
 
 div.logo {
@@ -47,6 +48,7 @@ nav.menu li a {
 	display: block;
 	padding: 15px;
 	padding-bottom: 20px;
+	text-decoration : none;
 }
 
 nav.menu li:first-child {
@@ -74,4 +76,24 @@ div.text {
 	width		: 350px;
 	min-height	: 120px;
 	outline		: 2px dashed black;
+}
+
+div.ribbon {
+	position: fixed;
+	left: 210px;
+	top: -10px;
+}
+
+div.topcorner {
+	position: fixed;
+	left: -2px;
+	top: -2px;
+	background-repeat: no-repeat;
+}
+
+div.leftcorner {
+	position: fixed;
+	left: -2px;
+	bottom: -5px;
+	background-repeat: no-repeat;
 }
