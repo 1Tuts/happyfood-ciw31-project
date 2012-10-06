@@ -112,6 +112,7 @@ section.contact section.head{
 	text-transform	:uppercase;
 	text-transform  : capitalize;
 	border-bottom	: 1px solid #aaa;
+	text-shadow		:1px 1px 1px gray;
 	-webkit-font-smoothing : antialiased;
 	-mos-font-smoothing : antialiased;
 	-ms-font-smoothing : antialiased;

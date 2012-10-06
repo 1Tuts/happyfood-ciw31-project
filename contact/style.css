@@ -20,8 +20,7 @@ div.menu {
 	width: 220px;
 	min-height: 650px;
 	outline: 2px solid black;
-	background-color: #111;
-	opacity: 0.9;
+	background-color: rgba(0,0,0,0.8);
 	border-left: 5px solid gray;
 	z-index: -2;
 }
@@ -40,26 +39,27 @@ nav.menu {
 }
 
 nav.menu li {
-	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
 }
 
 nav.menu li a {
-	color: #eee;
 	display: block;
+	color: #888;
 	padding: 15px;
-	padding-bottom: 20px;
-	text-decoration: none;
-}
-
-nav.menu li:first-child {
-	border-top: none;
+	text-decoration : none;
 }
 
 nav.menu span {
 	display: block;
-	color: #888;
-	margin-top: -15px;
-	margin-left: 15px;
+	color: #eee;
+	font-weight: bold;
+	padding-bottom: 3px;
+	text-transform:uppercase;
+	-webkit-transform:scale(1,1.5);
+	-moz-transform:scale(1,1.5);
+	-ms-transform:scale(1,1.5);
+	-o-transform:scale(1,1.5);
+	transform:scale(1,1.5);
 }
 
 div.icon {
@@ -78,34 +78,6 @@ div.text {
 	outline		: 2px dashed black;
 }
 
-div.ribbon {
-	position: fixed;
-	left: 210px;
-	top: -10px;
-	z-index: 2; 
-}
-
-div.topcorner {
-	position: fixed;
-	left: -2px;
-	top: -2px;
-	background-repeat: no-repeat;
-}
-
-div.leftcorner {
-	position: fixed;
-	left: -2px;
-	bottom: -5px;
-	background-repeat: no-repeat;
-}
-
-div.cornerright {
-	position: fixed;
-	left: 720px;
-	top: -1px;
-	background-repeat: no-repeat;
-}
-
 /*Contact Us*/
 
 section.contact {
@@ -117,8 +89,7 @@ section.contact {
 	min-height	: 500px;
 	padding		: 10px;
 	margin-left: 225px;
-	opacity		: 0.9;
-	background-color: #111;
+	background-color: rgba(0,0,0,0.8);
 	border-right: 8px solid gray;
 }
 
@@ -175,16 +146,38 @@ div.copyright {
 	min-height	: 45px;
 }
 
-div.cornerright {
+div.ribbon,
+div.topcorner,
+div.leftcorner,
+div.cornerright,
+div.cornerrightb {
 	position: fixed;
-	left: 720px;
-	top: -1px;
 	background-repeat: no-repeat;
 }
 
-div.cornerrightb {
+div.ribbon {
+	left 	: 210px;
+	top 	: -10px;
+	z-index	: 2; 
+}
+
+div.topcorner {
+	left 	: -2px;
+	top 	: -2px;
+}
+
+div.leftcorner {
 	position: fixed;
-	left: 720px;
-	bottom: -5px;
-	background-repeat: no-repeat;
+	left 	: -2px;
+	bottom 	: -5px;
+}
+
+div.cornerright {
+	left 	: 720px;
+	top 	: -1px;
+}
+
+div.cornerrightb {
+	left 	: 720px;
+	bottom 	: -5px;
 }
