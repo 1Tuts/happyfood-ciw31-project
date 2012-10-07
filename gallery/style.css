@@ -53,6 +53,7 @@ nav.menu li a {
 
 nav.menu li #backc {
 	background-color: #191919;
+	opacity: 0.8;
 }
 
 nav.menu span {
