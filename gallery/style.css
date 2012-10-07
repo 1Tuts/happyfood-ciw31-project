@@ -89,13 +89,12 @@ div.text {
 
 section.contact {
 	position: fixed;
-	left 	: 0;
+	left 	: 225px;
 	bottom 	: 0;
 	top 	: 0;
 	width		: 500px;
 	min-height	: 500px;
 	padding		: 10px;
-	margin-left	: 225px;
 	background-color: rgba(0,0,0,0.8);
 	border-right	: 8px solid gray;
 }
