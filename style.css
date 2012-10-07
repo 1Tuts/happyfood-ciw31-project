@@ -33,32 +33,38 @@ div.logo {
 }
 
 nav.menu {
-	margin-top: 25px;
-	margin-left: 15px;
-	width: 187px;
-	min-height: 300px;
+	margin-top  : 25px;
+	margin-left	: 15px;
+	width 		: 187px;
+	min-height 	: 300px;
 }
 
 nav.menu li {
-	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top  : 10px;
+}
+
+nav.menu li:hover {
+	background-color: #191919;
 }
 
 nav.menu li a {
-	color: #eee;
+	color  : #eee;
 	display: block;
 	padding: 15px;
-	padding-bottom: 20px;
-	text-decoration : none;
+	text-decoration	: none;
+	text-align 		: left;
 }
 
-nav.menu li:first-child {
-	border-top: none;
-}
-
-nav.menu span {
+nav.menu li a span {
+	position: absolute;
+	left: 15px;
+	font-weight  : bold;
+	margin-bottom: 5px;
+	text-align: left;
 	display: block;
-	color: #888;
-	margin-top: -15px;
+	color  : #888;
+	margin-top : -15px;
 	margin-left: 15px;
 }
 
@@ -75,7 +81,9 @@ div.text {
 	top 		: 20px;
 	width		: 350px;
 	min-height	: 120px;
-	outline		: 2px dashed black;
+	/*outline		: 2px dashed black;*/
+	background-color: #333;
+	opacity 		: 0.4;
 }
 
 div.ribbon {

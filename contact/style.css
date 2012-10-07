@@ -27,44 +27,54 @@ div.menu {
 }
 
 div.logo {
-	margin-left: 25px;
-	width: 165px;
-	height: 165px;
+	margin-left	: 25px;
+	width 		: 165px;
+	height 		: 165px;
 }
 
 nav.menu {
-	margin-top: 25px;
-	margin-left: 15px;
-	width: 187px;
-	min-height: 300px;
+	margin-top  : 25px;
+	margin-left : 15px;
+	width		: 187px;
+	min-height  : 300px;
 }
 
 nav.menu li {
-	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top  : 10px;
+}
+
+nav.menu li:hover {
+	background-color: #191919;
 }
 
 nav.menu li a {
-	color: #eee;
+	color  : #eee;
 	display: block;
 	padding: 15px;
-	padding-bottom: 20px;
-	text-decoration: none;
+	text-decoration	: none;
+	text-align 		: left;
 }
 
-nav.menu li:first-child {
-	border-top: none;
-}
-
-nav.menu span {
+nav.menu li a span {
+	position: absolute;
+	left: 15px;
+	font-weight  : bold;
+	margin-bottom: 5px;
+	text-align: left;
 	display: block;
-	color: #888;
-	margin-top: -15px;
+	color  : #888;
+	margin-top : -15px;
 	margin-left: 15px;
+}
+
+nav.menu #contactus {
+	background-color: #191919;
 }
 
 div.icon {
 	margin: 40px auto 0;
-	width: 170px;
+	width : 170px;
 	height: 40px;
 	padding-left: 20px; 
 }
@@ -75,20 +85,22 @@ div.text {
 	top 		: 20px;
 	width		: 350px;
 	min-height	: 120px;
-	outline		: 2px dashed black;
+	/*outline		: 2px dashed black;
+*/	background-color: #333;
+	opacity 		: 0.4;
 }
 
 div.ribbon {
 	position: fixed;
 	left: 210px;
-	top: -10px;
-	z-index: 2; 
+	top : -10px;
+	z-index : 2; 
 }
 
 div.topcorner {
 	position: fixed;
 	left: -2px;
-	top: -2px;
+	top : -2px;
 	background-repeat: no-repeat;
 }
 
@@ -109,70 +121,152 @@ div.cornerright {
 /*Contact Us*/
 
 section.contact {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	top: 0;
+	position 	: fixed;
+	left 	 	: 225px;
+	bottom 		: 0;
+	top 		: 0;
 	width		: 500px;
 	min-height	: 500px;
 	padding		: 10px;
-	margin-left: 225px;
 	opacity		: 0.9;
-	background-color: #111;
-	border-right: 8px solid gray;
+	background-color : #111;
+	border-right	 : 8px solid gray;
+	overflow 		 : scroll;
+	overflow-x		 : hidden;
 }
 
-section.head{
-	outline		: 1px dashed blue;
-	min-height	: 160px;
-	padding		: 10px;
+section.contact a.close {
+	float: right;
+}
+
+h1.head{
+	/*outline		: 1px dashed blue;*/
+	min-height	: 110px;
+	margin 		: 0 0 40px 0;
+	color 		: #DDD;
+	padding 	: 40px 0;
+	text-align  : center;
+	vertical-align : baseline;
+	line-height    : 110px;
+	text-transform : uppercase;
+	text-shadow    : 1px 0px 1px #222;
+	border-bottom  : 1px solid #aaa;
 }
 
 section.address{
-	outline		: 1px dashed blue;
-	min-height	: 170px;
+	/*outline		: 1px dashed blue;*/
+	min-height	: 132px;
 	padding		: 10px;
 }
 
 section.newyork{
-	outline		: 1px dashed blue;
-	min-height	: 170px;
+	/*outline		: 1px dashed blue;*/
+	min-height	: inherit;
+	width : 47%;
+}
+
+h4.city {
+	min-height: 36px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+section.address div.textp {
+	min-height	: 38px;
+	color 		: white;
+}
+
+section.address div.numbers {
+	min-height  : 38px;
+	color 		: #EBEBEB;
+	margin-top	: 6px;
 }
 
 section.california{
-	outline		: 1px dashed blue;
-	min-height	: 170px;
+	/*outline		: 1px dashed blue;*/
+	min-height	: inherit;
+	width 		: 47%;
 }
 
-div.message {
-	outline		: 1px dashed blue;
+form.message {
+	/*outline		: 1px dashed blue;*/
 	min-height	: 400px;
 	padding		: 10px;
 }
 
-section.name {
-	outline		: 1px dashed blue;
-	min-height	: 30px;
+input.name {
+	/*outline		: 1px dashed blue;*/
+	min-height	: 31px;
+	background-color: #191919;
+	width: 94%;
+	color: #999;
+	border: 3px inset gray;
 }
 
-section.email {
-	outline		: 1px dashed blue;
-	min-height	: 30px;
+input.email {
+	/*outline		: 1px dashed blue;*/
+	min-height	: 31px;
+	background-color: #191919;
+	width: 94%;
+	border: 3px inset gray;
+	color: #999;
 }
 
-section.text {
-	outline		: 1px dashed blue;
-	min-height	: 300px;
+label.err {
+	font-size	: 11px;
+	color 		: red;
+	font-style	: italic;
+	display 	: block;
 }
 
-section.send {
-	outline		: 1px dashed blue;
-	min-height	: 35px;
+textarea.text {
+	/*outline		: 1px dashed blue;*/
+	min-height	: 222px;
+	background-color: #191919;
+	width: 94%;
+	border: 3px inset gray;
+	color: #999;
+}
+
+input.send {
+	/*outline		: 1px dashed blue;*/
+	min-height	: 31px;
+	background-color: #FE7301;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	border: solid 1px #E56701;
+	font: 13px Arial sans-serif;
+	text-shadow: 1px 0px 1px white;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+	width: 134px;
+	min-height: 33px;
+}
+
+input.send:active {
+	background-color: #444444;
+	text-decoration: none;
 }
 
 div.copyright {
-	outline		: 1px dashed blue;
-	min-height	: 45px;
+	width : 451px;
+	/*outline		: 1px dashed blue;*/
+	min-height	: 32px;
+	color : white;
+	text-shadow : 0px 0px 0px white;
+	font-family: Arial,"helvetica";
+	font-size: 12px;
+}
+
+div.copyright a{
+	color: #FF9C00;
+	text-decoration: none;
+}
+
+div.copyright a:hover {
+	color: white;
+	text-decoration: none;
 }
 
 div.cornerright {

@@ -19,11 +19,26 @@
 			</div>
 			<nav class="f6 menu">
 				<menu>
-					<li><a href="#">SKINS & STYLES</a><span>Select theme option</span></li>
-					<li><a href="#">MENUS</a><span>Our delicious dishes</span></li>
-					<li><a href="#">PAGES</a><span>Sample styled pages</span></li>
-					<li><a href="../gallery/index.html">GALLERY</a><span>Photo of our store</span></li>
-					<li><a href="index.html">CONTACT US</a><span>Location and address detail</span></li>
+					<li><a href="#"><span>SKIN&nbsp;&amp;&nbsp;STYLES</span>
+							Select theme option
+						</a>
+					</li>
+					<li><a href="#"><span>MENUS</span>
+							Our delicious dishes
+						</a>
+					</li>
+					<li><a href="#"><span>PAGES</span>
+							Sample styled pages
+						</a>
+					</li>
+					<li><a href="../gallery/index.html"><span>GALLERY</span>
+							Photo of our store
+						</a>
+					</li>
+					<li id="contactus"><a href="index.html"><span>CONTACT US</span>
+							Location and address detail
+						</a>
+					</li>
 				</menu>
 			</nav>
 			<div class="icon">
@@ -34,21 +49,46 @@
 			</div>
 		</div>
 		<section class="zedloos contact">
+			<a href="../index.html" class="close"><img src="../images/close.png" alt="close"></a>
 			<div class="cornerright"><img src="../images/corner_right.png" alt="corner_right"></div>
 			<div class="cornerrightb"><img src="../images/corner_right_bottom.png" alt="corner_right_bottom"></div>
-			<section class="head"></section>
+			<h1 class="f40 head">CONTACT</h1>
 			<section class="zedloos mt2 address">
-				<section class="zedloos w7 left newyork"></section>
-				<section class="zedloos w7 last mla california"></section>
+				<section class="zedloos w7 left newyork">
+					<h4 class="f10 city">NEW YORK</h4>
+					<div class="textp">in mashhad asdasdasaas asdas</div>
+					<div class="numbers">
+						+98 915 223 2763
+						<br />
+						+98 915 820 1930
+					</div>
+				</section>
+				<section class="zedloos w7 last mla california">
+					<h4 class="f10 city">CALIFORNIA</h4>
+					<div class="textp">in tehran asdasdasaas sdafsfasffs</div>
+					<div class="numbers">
+						+98 915 223 2763
+						<br />
+						+98 915 820 1930
+					</div>
+				</section>
 			</section>
-			<div class="zedloos message">
-				<section class="mt1 name"></section>
-				<section class="mt2 email"></section>
-				<section class="mt2 text"></section>
-				<section class="w4 mt5 left send"></section>
+			<form method="post" action="" class="zedloos message">
+				<input placeholder="Name*" type="text" title="Name*" class="mt1 name" />
+				<input placeholder="Email*" type="text" title="Email*" id="email" name="email" class="mt2 email" />
+				<label for="email" generated="true" class="err">Please&nbsp;enter&nbsp;a&nbsp;valid&nbsp;email&nbsp;address</label>
+				<textarea placeholder="Message*" type="text" title="Message*" class="mt2 text"></textarea>
+				<input type="submit" value="Send Message" class="mt5 left send" />
 				<div class="badboy"></div>
+			</form>
+			<div class="mt5 copyright">
+				Copyright © 2010-2011 Pluto is proudly powered by 
+	    		<a href="" target="_blank">Wordpress</a>
+	    		.
+	    		<br />
+	    		Wordpress theme by
+	    		<a href="" target="_blank">Peerapong</a>
 			</div>
-			<div class=" mt5 w8 copyright"></div>
 			<div class="badboy"></div>
 		</section>
 		<div class="text"></div>
