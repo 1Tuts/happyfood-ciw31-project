@@ -40,6 +40,7 @@ nav.menu {
 
 nav.menu #backc {
 	background-color: #191919;
+	opacity: 0.8;
 }
 
 nav.menu li {
@@ -92,19 +93,20 @@ section.contact {
 	width		: 500px;
 	min-height	: 500px;
 	padding		: 10px;
-	opacity		: 0.9;
-	background-color : #111;
+	background-color: rgba(0,0,0,0.8);
 	border-right	 : 8px solid gray;
-	overflow 		 : scroll;
-	overflow-x		 : hidden;
+	overflow-y 		 : scroll;
 }
 
-section.contact a.close {
-	float: right;
+section.contact > a {
+	display	: block;
+	position: absolute;
+	right 	: 20px;
+	top 	: 20px;
+	z-index	: 3;
 }
 
 h1.head{
-	/*outline		: 1px dashed blue;*/
 	min-height	: 110px;
 	margin 		: 0 0 40px 0;
 	color 		: #DDD;
@@ -113,18 +115,16 @@ h1.head{
 	vertical-align : baseline;
 	line-height    : 110px;
 	text-transform : uppercase;
-	text-shadow    : 1px 0px 1px #222;
+	text-shadow		:1px 1px 1px gray;
 	border-bottom  : 1px solid #aaa;
 }
 
 section.address{
-	/*outline		: 1px dashed blue;*/
 	min-height	: 132px;
 	padding		: 10px;
 }
 
 section.newyork{
-	/*outline		: 1px dashed blue;*/
 	min-height	: inherit;
 	width : 47%;
 }
@@ -148,19 +148,16 @@ section.address div.numbers {
 }
 
 section.california{
-	/*outline		: 1px dashed blue;*/
 	min-height	: inherit;
 	width 		: 47%;
 }
 
 form.message {
-	/*outline		: 1px dashed blue;*/
 	min-height	: 400px;
 	padding		: 10px;
 }
 
 input.name {
-	/*outline		: 1px dashed blue;*/
 	min-height	: 31px;
 	background-color: #191919;
 	width: 94%;
@@ -169,7 +166,6 @@ input.name {
 }
 
 input.email {
-	/*outline		: 1px dashed blue;*/
 	min-height	: 31px;
 	background-color: #191919;
 	width: 94%;
@@ -177,15 +173,7 @@ input.email {
 	color: #999;
 }
 
-label.err {
-	font-size	: 11px;
-	color 		: red;
-	font-style	: italic;
-	display 	: block;
-}
-
 textarea.text {
-	/*outline		: 1px dashed blue;*/
 	min-height	: 222px;
 	background-color: #191919;
 	width: 94%;
@@ -194,7 +182,6 @@ textarea.text {
 }
 
 input.send {
-	/*outline		: 1px dashed blue;*/
 	min-height	: 31px;
 	background-color: #FE7301;
 	color: white;
@@ -202,7 +189,6 @@ input.send {
 	font-weight: bold;
 	border: solid 1px #E56701;
 	font: 13px Arial sans-serif;
-	text-shadow: 1px 0px 1px white;
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
 	width: 134px;
 	min-height: 33px;
@@ -214,13 +200,8 @@ input.send:active {
 }
 
 div.copyright {
-	width : 451px;
-	/*outline		: 1px dashed blue;*/
-	min-height	: 32px;
-	color : white;
-	text-shadow : 0px 0px 0px white;
-	font-family: Arial,"helvetica";
-	font-size: 12px;
+	color 		: #bbb;
+	min-height	: 45px;
 }
 
 div.copyright a{
