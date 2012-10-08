@@ -40,7 +40,8 @@ nav.menu {
 	min-height	: 300px;
 }
 
-nav.menu li {
+nav.menu menu > li {
+	position: relative;
 	border-bottom: 1px solid gray;
 }
 
@@ -67,6 +68,33 @@ nav.menu span {
 	-ms-transform:scale(1,1.5);
 	-o-transform:scale(1,1.5);
 	transform:scale(1,1.5);
+}
+
+nav.menu li ul {
+	display: none;
+	position:absolute;  
+	left: 187px;
+	top: 0;
+	min-width: 100%;
+	border-radius: 2px;
+	text-transform:uppercase;
+	background-color: rgba(0,0,0,0.8);
+}
+
+nav.menu li ul li {	
+	border-top: 1px solid gray;
+}
+
+nav.menu li ul li:first-child {	
+	border-top: none;
+}
+
+nav.menu li:hover ul {
+	display: block;
+}
+
+nav.menu li ul a:hover {
+	background-color: rgba(0,0,0,0.7);
 }
 
 div.icon {
@@ -98,6 +126,7 @@ section.contact {
 	padding		: 10px;
 	background-color: rgba(0,0,0,0.8);
 	border-right	: 8px solid gray;
+	z-index: -5;
 }
 
 section.contact > a {
