@@ -1,0 +1,196 @@
+body {
+	position : fixed;
+	left     : 0;
+	right    : 0;
+	top      : 0;
+	bottom   : 0;
+	z-index	 :-1;
+	background-image    : url('../images/Moriokamen.jpg');
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	background-position : center top;
+}
+
+div.menu {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	padding-top: 31px;
+	width: 220px;
+	min-height: 650px;
+	outline: 2px solid black;
+	background-color: rgba(0,0,0,0.8);
+	border-left: 5px solid gray;
+	z-index: -2;
+}
+
+div.logo {
+	margin-left: 25px;
+	width: 165px;
+	height: 165px;
+}
+
+nav.menu {
+	margin-top: 25px;
+	margin-left: 15px;
+	width: 187px;
+	min-height: 300px;
+}
+
+nav.menu #backc {
+	background-color: #191919;
+	opacity: 0.8;
+}
+
+nav.menu menu > li {
+	position: relative;
+	border-bottom: 1px solid gray;
+}
+
+nav.menu li a {
+	display: block;
+	color: #888;
+	padding: 15px;
+	text-decoration : none;
+}
+
+nav.menu span {
+	display: block;
+	color: #eee;
+	font-weight: bold;
+	padding-bottom: 3px;
+	text-transform:uppercase;
+	-webkit-transform:scale(1,1.5);
+	-moz-transform:scale(1,1.5);
+	-ms-transform:scale(1,1.5);
+	-o-transform:scale(1,1.5);
+	transform:scale(1,1.5);
+}
+
+nav.menu li ul {
+	display: none;
+	position:absolute;  
+	left: 187px;
+	top: 0;
+	min-width: 100%;
+	border-radius: 2px;
+	text-transform:uppercase;
+	background-color: rgba(0,0,0,0.8);
+}
+
+nav.menu li ul li {	
+	border-top: 1px solid gray;
+}
+
+nav.menu li ul li:first-child {	
+	border-top: none;
+}
+
+nav.menu li:hover ul {
+	display: block;
+}
+
+nav.menu li ul a:hover {
+	background-color: rgba(0,0,0,0.7);
+}
+
+div.icon {
+	margin: 40px auto 0;
+	width: 170px;
+	height: 40px;
+	padding-left: 20px; 
+}
+
+div.text {
+	position 	: absolute;
+	right 		: 20px;
+	top 		: 20px;
+	width		: 350px;
+	min-height	: 120px;
+	outline		: 2px dashed black;
+}
+
+/*Contact Us*/
+
+section.contact {
+	position 	: fixed;
+	left 	 	: 225px;
+	bottom 		: 0;
+	top 		: 0;
+	width		: 500px;
+	min-height	: 500px;
+	padding		: 10px;
+	background-color: rgba(0,0,0,0.8);
+	border-right	 : 8px solid gray;
+	overflow-y 		 : scroll;
+	z-index: -5;
+}
+
+section.contact > a {
+	display	: block;
+	position: absolute;
+	right 	: 20px;
+	top 	: 20px;
+	z-index	: 3;
+}
+
+h1.head{
+	min-height	: 110px;
+	margin 		: 0 0 40px 0;
+	color 		: #DDD;
+	padding 	: 40px 0;
+	text-align  : center;
+	vertical-align : baseline;
+	line-height    : 110px;
+	text-transform : uppercase;
+	text-shadow		:1px 1px 1px gray;
+	border-bottom  : 1px solid #aaa;
+}
+
+
+div.copyright {
+	color 		: #bbb;
+	min-height	: 45px;
+}
+
+section.text {
+	outline		: 1px dashed blue;
+	min-height	: 300px;
+}
+
+div.ribbon,
+div.topcorner,
+div.leftcorner,
+div.cornerright,
+div.cornerrightb {
+	position: fixed;
+	background-repeat: no-repeat;
+}
+
+div.ribbon {
+	left 	: 210px;
+	top 	: -10px;
+	z-index	: 2; 
+}
+
+div.topcorner {
+	left 	: -2px;
+	top 	: -2px;
+}
+
+div.leftcorner {
+	position: fixed;
+	left 	: -2px;
+	bottom 	: -5px;
+}
+
+div.cornerright {
+	left 	: 720px;
+	top 	: -1px;
+}
+
+div.cornerrightb {
+	left 	: 720px;
+	bottom 	: -5px;
+}
