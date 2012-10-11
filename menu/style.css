@@ -135,19 +135,32 @@ section.contact > a {
 	z-index	: 3;
 }
 
-h1.head{
+h1.head {
 	min-height	: 110px;
 	margin 		: 0 0 40px 0;
 	color 		: #DDD;
 	padding 	: 40px 0;
 	text-align  : center;
-	vertical-align : baseline;
 	line-height    : 110px;
 	text-transform : uppercase;
 	text-shadow		:1px 1px 1px gray;
-	border-bottom  : 1px solid #aaa;
+	/*border-bottom  : 1px solid #aaa;*/
 }
 
+ul.products {
+	/*outline: 1px dashed blue;*/
+}
+
+ul.products li {
+	/*outline: 1px dashed red;*/
+	min-height: 110px;
+	padding: 10px 0;
+	border-top: 1px solid #555;
+}
+
+ul.products li:last-child {
+	border-bottom: 1px solid #555;
+}
 
 div.copyright {
 	color 		: #bbb;
