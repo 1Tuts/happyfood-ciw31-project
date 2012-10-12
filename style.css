@@ -66,10 +66,13 @@ nav.menu li a span {
 nav.menu li ul {
 	display: none;
 	position:absolute;  
-	left: 187px;
 	top: 0;
-	min-width: 100%;
+	left: 187px;
+	width:150px;
+	padding: 0 10px;
+	font-weight: bold;
 	border-radius: 2px;
+	white-space: nowrap;
 	text-transform:uppercase;
 	background-color: rgba(0,0,0,0.8);
 }
@@ -82,12 +85,12 @@ nav.menu li ul li:first-child {
 	border-top: none;
 }
 
-nav.menu li:hover ul {
-	display: block;
+nav.menu li ul li a {	
+	padding: 10px 0px;
 }
 
-nav.menu li ul a:hover {
-	background-color: rgba(0,0,0,0.7);
+nav.menu li:hover ul {
+	display: block;
 }
 
 div.icon {
