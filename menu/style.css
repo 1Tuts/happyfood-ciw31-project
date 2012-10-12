@@ -111,7 +111,7 @@ div.text {
 	outline		: 2px dashed black;
 }
 
-/*Contact Us*/
+/*Menu*/
 
 section.contact {
 	position 	: fixed;
@@ -144,15 +144,9 @@ h1.head {
 	line-height    : 110px;
 	text-transform : uppercase;
 	text-shadow		:1px 1px 1px gray;
-	/*border-bottom  : 1px solid #aaa;*/
-}
-
-ul.products {
-	/*outline: 1px dashed blue;*/
 }
 
 ul.products li {
-	/*outline: 1px dashed red;*/
 	min-height: 110px;
 	padding: 10px 0;
 	border-top: 1px solid #555;
