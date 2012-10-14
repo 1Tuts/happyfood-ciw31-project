@@ -1,0 +1,82 @@
+/*Menu*/
+
+section.contact {
+	position 	: fixed;
+	left 	 	: 225px;
+	bottom 		: 0;
+	top 		: 0;
+	width		: 500px;
+	min-height	: 500px;
+	padding		: 10px;
+	background-color: rgba(0,0,0,0.8);
+	border-right	 : 8px solid gray;
+	overflow-y 		 : scroll;
+	z-index: -5;
+}
+
+h1.head {
+	min-height	: 110px;
+	margin 		: 0 0 40px 0;
+	color 		: #DDD;
+	padding 	: 40px 0;
+	text-align  : center;
+	line-height    : 110px;
+	text-transform : uppercase;
+	text-shadow		:1px 1px 1px gray;
+}
+
+ul.products li {
+	min-height: 110px;
+	padding: 10px 0;
+	border-top: 1px solid #555;
+}
+
+ul.products li:last-child {
+	border-bottom: 1px solid #555;
+}
+
+div.copyright {
+	color 		: #bbb;
+	min-height	: 45px;
+}
+
+section.text {
+	outline		: 1px dashed blue;
+	min-height	: 300px;
+}
+
+div.ribbon,
+div.topcorner,
+div.leftcorner,
+div.cornerright,
+div.cornerrightb {
+	position: fixed;
+	background-repeat: no-repeat;
+}
+
+div.ribbon {
+	left 	: 210px;
+	top 	: -10px;
+	z-index	: 2; 
+}
+
+div.topcorner {
+	left 	: -2px;
+	top 	: -2px;
+}
+
+div.leftcorner {
+	position: fixed;
+	left 	: -2px;
+	bottom 	: -5px;
+}
+
+div.cornerright {
+	left 	: 720px;
+	top 	: -1px;
+}
+
+div.cornerrightb {
+	left 	: 720px;
+	bottom 	: -5px;
+}
