@@ -93,6 +93,11 @@ nav.menu li:hover ul {
 	display: block;
 }
 
+nav.menu #backc {
+	background-color: #191919;
+	opacity: 0.8;
+}
+
 div.icon {
 	margin: 40px auto 0;
 	width: 170px;
