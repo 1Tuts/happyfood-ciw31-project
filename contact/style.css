@@ -8,7 +8,7 @@ section.contact {
 	width		: 500px;
 	min-height	: 500px;
 	padding		: 10px;
-	background-color: rgba(0,0,0,0.8);
+	background-color : rgba(0,0,0,0.8);
 	border-right	 : 8px solid gray;
 	overflow-y 		 : scroll;
 	z-index: -5;
@@ -31,7 +31,7 @@ h1.head{
 	vertical-align : baseline;
 	line-height    : 110px;
 	text-transform : uppercase;
-	text-shadow		:1px 1px 1px gray;
+	text-shadow	   :1px 1px 1px gray;
 	border-bottom  : 1px solid #aaa;
 }
 
@@ -46,10 +46,10 @@ section.newyork{
 }
 
 h4.city {
-	min-height: 36px;
-	color: white;
-	text-transform: uppercase;
-	font-weight: normal;
+	min-height 		: 36px;
+	color 			: white;
+	text-transform	: uppercase;
+	font-weight		: normal;
 }
 
 section.address div.textp {
@@ -74,45 +74,45 @@ form.message {
 }
 
 input.name {
-	min-height	: 31px;
+	min-height	 	: 31px;
 	background-color: #191919;
-	width: 94%;
-	color: #999;
-	border: 3px inset gray;
+	width 			: 94%;
+	color 			: #999;
+	border 			: 3px inset gray;
 }
 
 input.email {
-	min-height	: 31px;
+	min-height	 	: 31px;
 	background-color: #191919;
-	width: 94%;
-	border: 3px inset gray;
-	color: #999;
+	width 			: 94%;
+	border 			: 3px inset gray;
+	color 			: #999;
 }
 
 textarea.text {
-	min-height	: 222px;
+	min-height	 	: 222px;
 	background-color: #191919;
-	width: 94%;
-	border: 3px inset gray;
-	color: #999;
+	width 			: 94%;
+	border 			: 3px inset gray;
+	color 			: #999;
 }
 
 input.send {
 	min-height	: 31px;
-	color: white;
-	cursor: pointer;
-	font-weight: bold;
-	border: solid 1px #E56701;
-	font: 13px Arial sans-serif;
-	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
-	width: 134px;
-	min-height: 33px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#FEA35A), to(#FE7201));
+	color 		: white;
+	cursor 		: pointer;
+	font-weight : bold;
+	border 		: solid 1px #E56701;
+	font 		: 13px Arial sans-serif;
+	box-shadow 	: 1px 2px 3px rgba(0, 0, 0, 0.4);
+	width 		: 134px;
+	min-height 	: 33px;
+	background 	: -webkit-gradient(linear, left top, left bottom, from(#FEA35A), to(#FE7201));
 }
 
 input.send:active {
 	background-color: #444444;
-	text-decoration: none;
+	text-decoration : none;
 }
 
 div.copyright {
@@ -121,13 +121,13 @@ div.copyright {
 }
 
 div.copyright a{
-	color: #FF9C00;
-	text-decoration: none;
+	color 			: #FF9C00;
+	text-decoration : none;
 }
 
 div.copyright a:hover {
-	color: white;
-	text-decoration: none;
+	color 			: white;
+	text-decoration : none;
 }
 
 section.text {
@@ -140,8 +140,8 @@ div.topcorner,
 div.leftcorner,
 div.cornerright,
 div.cornerrightb {
-	position: fixed;
-	background-repeat: no-repeat;
+	position 			: fixed;
+	background-repeat	: no-repeat;
 }
 
 div.ribbon {
