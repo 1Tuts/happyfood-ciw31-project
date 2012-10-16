@@ -8,10 +8,10 @@ section.contact {
 	width		: 500px;
 	min-height	: 500px;
 	padding		: 10px;
-	background-color: rgba(0,0,0,0.8);
-	border-right	 : 8px solid gray;
-	overflow-y 		 : scroll;
-	z-index: -5;
+	background-color	: rgba(0,0,0,0.8);
+	border-right	 	: 8px solid gray;
+	overflow-y 			: scroll;
+	z-index 			: -5;
 }
 
 section.contact > a {
@@ -33,7 +33,10 @@ h1.head{
 	text-shadow		:1px 1px 1px gray;
 }
 
-
+div.gmap {
+	margin-top  : 100px;
+	padding-left: 20px;
+}
 
 div.copyright {
 	color 		: #bbb;
@@ -50,7 +53,7 @@ div.topcorner,
 div.leftcorner,
 div.cornerright,
 div.cornerrightb {
-	position: fixed;
+	position  		 : fixed;
 	background-repeat: no-repeat;
 }
 
