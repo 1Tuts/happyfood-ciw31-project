@@ -11,7 +11,7 @@ section.contact {
 	background-color: rgba(0,0,0,0.8);
 	border-right	 : 8px solid gray;
 	overflow-y 		 : scroll;
-	z-index: -5;
+	z-index 		 : -5;
 }
 
 section.contact > a {
@@ -30,13 +30,13 @@ h1.head {
 	text-align  : center;
 	line-height    : 110px;
 	text-transform : uppercase;
-	text-shadow		:1px 1px 1px gray;
-	text-align: left;
+	text-shadow	   :1px 1px 1px gray;
+	text-align 	   : left;
 }
 
 ul.products li {
 	min-height: 110px;
-	padding: 10px 0;
+	padding   : 10px 0;
 	border-top: 1px solid #555;
 }
 
@@ -59,7 +59,7 @@ div.topcorner,
 div.leftcorner,
 div.cornerright,
 div.cornerrightb {
-	position: fixed;
+	position 		 : fixed;
 	background-repeat: no-repeat;
 }
 
