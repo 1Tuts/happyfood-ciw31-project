@@ -10,7 +10,7 @@ section.contact {
 	padding		: 10px;
 	background-color: rgba(0,0,0,0.8);
 	border-right	: 8px solid gray;
-	z-index: -5;
+	z-index 		: -5;
 }
 
 section.contact > a {
@@ -30,15 +30,15 @@ section.contact section.head{
 	text-transform  : capitalize;
 	border-bottom	: 1px solid #aaa;
 	text-shadow		:1px 1px 1px gray;
-	-webkit-font-smoothing : antialiased;
-	-mos-font-smoothing : antialiased;
-	-ms-font-smoothing : antialiased;
-	-o-font-smoothing : antialiased;
-	font-smoothing : antialiased;
+	-webkit-font-smoothing  : antialiased;
+	-mos-font-smoothing  	: antialiased;
+	-ms-font-smoothing  	: antialiased;
+	-o-font-smoothing  		: antialiased;
+	font-smoothing  		: antialiased;
 }
 
 section.contact section.disc {
-	color: #ccc;
+	color 		: #ccc;
 	min-height	: 50px;
 }
 
@@ -70,8 +70,8 @@ div.topcorner,
 div.leftcorner,
 div.cornerright,
 div.cornerrightb {
-	position: fixed;
-	background-repeat: no-repeat;
+	position 			: fixed;
+	background-repeat	: no-repeat;
 }
 
 div.ribbon {
