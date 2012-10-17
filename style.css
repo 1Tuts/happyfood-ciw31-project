@@ -115,22 +115,234 @@ div.text {
 	background-color: rgba(0,0,0,0.8);
 }
 
-div.ribbon {
+div.ribbon,
+div.topcorner,
+div.leftcorner,
+div.cornerright,
+div.cornerrightb {
 	position: fixed;
-	left: 210px;
-	top: -10px;
+	background-repeat: no-repeat;
+}
+
+div.ribbon {
+	left 	: 210px;
+	top 	: -10px;
+	z-index	: 2; 
 }
 
 div.topcorner {
-	position: fixed;
-	left: -2px;
-	top: -2px;
-	background-repeat: no-repeat;
+	left 	: -2px;
+	top 	: -2px;
 }
 
 div.leftcorner {
-	position: fixed;
-	left: -2px;
-	bottom: -5px;
-	background-repeat: no-repeat;
+	left 	: -2px;
+	bottom 	: -5px;
+}
+
+div.cornerright {
+	left 	: 720px;
+	top 	: -1px;
+}
+
+div.cornerrightb {
+	left 	: 720px;
+	bottom 	: -5px;
+}
+
+section.contact {
+	position 	: fixed;
+	left 	 	: 225px;
+	bottom 		: 0;
+	top 		: 0;
+	width		: 500px;
+	min-height	: 500px;
+	padding		: 10px;
+	background-color: rgba(0,0,0,0.8);
+	border-right	: 8px solid gray;
+	overflow-y 	: scroll;
+	overflow-x	: hidden; 
+	z-index		: -5;
+}
+
+section.contact > a {
+	display	: block;
+	position: absolute;
+	right 	: 20px;
+	top 	: 20px;
+	z-index	: 3;
+}
+
+section.contact h1.head{
+	min-height	: 110px;
+	margin 		: 0 0 40px 0;
+	color 		: #DDD;
+	padding 	: 40px 0;
+	text-align  : center;
+	vertical-align 	: baseline;
+	line-height    	: 110px;
+	text-transform 	: uppercase;
+	text-shadow		:1px 1px 1px gray;
+	border-bottom  	: 1px solid #aaa;
+}
+
+section.contact h1.border {
+	border-bottom: none;
+}
+
+section.contact h1.lefta {
+	text-align: left;
+	margin-left: 10px;
+}
+
+div.copyright {
+	color 		: #bbb;
+	min-height	: 45px;
+}
+
+/*Contact*/
+section.address {
+	min-height	: 132px;
+	padding		: 10px;
+}
+
+section.address section.newyork,
+section.california {
+	width : 47%;
+}
+
+section.address h4.city {
+	min-height: 36px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+section.address div.textp {
+	min-height	: 38px;
+	color 		: white;
+}
+
+section.address div.numbers {
+	min-height  : 38px;
+	color 		: #EBEBEB;
+	margin-top	: 6px;
+}
+section.contact form.message {
+	min-height	: 400px;
+	padding		: 10px;
+}
+
+form.message input.name {
+	min-height	: 31px;
+	background-color: #191919;
+	width: 94%;
+	color: #999;
+	border: 3px inset gray;
+}
+
+form.message input.email {
+	min-height	: 31px;
+	background-color: #191919;
+	width: 94%;
+	border: 3px inset gray;
+	color: #999;
+}
+
+form.message textarea.text {
+	min-height	: 222px;
+	background-color: #191919;
+	width: 94%;
+	border: 3px inset gray;
+	color: #999;
+}
+
+form.message input.send {
+	min-height	: 31px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	border: solid 1px #E56701;
+	font: 13px Arial sans-serif;
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+	width: 134px;
+	min-height: 33px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FEA35A), to(#FE7201));
+}
+
+form.message input.send:active {
+	background-color: #444444;
+	text-decoration: none;
+}
+
+/* MENUS */
+
+section.contact ul.products li {
+	min-height: 100px;
+	padding: 20px 0;
+	border-top: 1px solid #555;
+}
+
+section.contact ul.products li:last-child {
+	border-bottom: 1px solid #555;
+}
+
+section.contact ul li div {
+	margin-left: 95px;
+}
+
+section.contact ul li img {
+	display: block;
+	margin-left: 20px;
+	margin-right: 10px;
+	border: 3px solid #ddd;
+	float: left;
+}
+
+section.contact ul li h3 {
+	color: white;
+	font-weight: bold;
+	-webkit-transform:scale(1,1.5)
+}
+
+section.contact ul li h4 {
+	color: white;
+	font-weight: bold;
+	text-align: right;
+}
+
+section.contact ul li p {
+	color: #eee;
+	margin-top: 10px;
+}
+
+/* Gallery */
+
+section.contact section.desc {
+	color 		: #ccc;
+	min-height	: 50px;
+}
+
+section.contact div.gallery {
+	min-height	: 200px;
+	padding		: 10px;
+	color		: white;
+	text-shadow	: 0 -1px 0 black;
+	font-size	: 16px;
+	line-height	: 1.625em;
+	font-family	: "Open Sans", "lucida grande", tahoma, sans-serif;
+	font-weight	: 600;
+	-webkit-font-smoothing : antialiased;
+}
+
+section.contact div.gallery a {
+	float		: left;
+	display		: block;
+	margin-right: 10px;
+}
+
+/* About US */
+
+div.gmap {
+	margin  : 80px 0 0 20px;
 }

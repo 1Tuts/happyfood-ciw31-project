@@ -1,0 +1,51 @@
+section.slideshow {
+	width: 454px;
+}
+
+section.slideshow ul.train{
+	left	:0;
+	top		: 0;
+	margin 	:0 2px;
+	-webkit-transition	: left 800ms ease-out;
+	-moz-transition		: left 800ms ease-out;
+	-ms-transition		: left 800ms ease-out;
+	-o-transition		: left 800ms ease-out;
+	transition 			: left 800ms ease-out;
+}
+
+section.slideshow ul.train > li{
+	width	: 450px;
+	height	: 300px;
+	float	: left;
+	margin 	:0 2px;
+	background-repeat	: no-repeat;
+	background-size		: cover;
+	background-position	: center center;
+}
+
+section.slideshow menu{
+	position:absolute;
+	left	: 8px;
+	bottom	: 8px;
+}
+
+section.slideshow menu li{
+	float	:left;
+	width	:12px;
+	height	:12px;
+	border-radius	: 6px;
+	background-color: #333;
+	opacity			: 0.7;
+	margin-right	: 3px;
+	cursor			: pointer;
+	-webkit-transition	: all 500ms;
+	-moz-transition		: all 500ms;
+	-ms-transition		: all 500ms;
+	-o-transition		: all 500ms;
+	transition 			: all 500ms;
+}
+
+section.slideshow menu li:hover{
+	opacity	: 1;
+	background-color: #CCE;
+}
