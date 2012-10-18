@@ -202,6 +202,10 @@ section.contact h1.lefta {
 	margin-left: 10px;
 }
 
+section.contact h1.pad {
+	padding 	: 20px 0;
+}
+
 div.copyright {
 	color 		: #bbb;
 	min-height	: 45px;
@@ -352,4 +356,9 @@ section.contact div.gallery a {
 
 div.gmap {
 	margin  : 80px 0 0 20px;
+}
+
+div.gmap iframe {
+	border:0;
+	overflow: scroll;
 }
