@@ -93,6 +93,10 @@ nav.menu li:hover ul {
 	display: block;
 }
 
+nav.menu li a:hover {
+	color: #ddd;
+}
+
 nav.menu #backc {
 	background-color: #191919;
 	opacity: 0.8;
