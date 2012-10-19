@@ -13,22 +13,22 @@ body {
 
 div.menu {
 	position: fixed;
-	left: 0;
-	bottom: 0;
-	top: 0;
-	padding-top: 31px;
-	width: 220px;
-	min-height: 650px;
-	outline: 2px solid black;
+	left 	: 0;
+	bottom 	: 0;
+	top 	: 0;
+	width	: 220px;
+	z-index	: -2;
+	outline		: 2px solid black;
+	min-height	: 650px;
+	padding-top	: 31px;
+	border-left	: 5px solid gray;
 	background-color: rgba(0,0,0,0.8);
-	border-left: 5px solid gray;
-	z-index: -2;
 }
 
 div.logo {
+	width	: 165px;
+	height 	: 165px;
 	margin-left: 25px;
-	width: 165px;
-	height: 165px;
 }
 
 nav.menu {
