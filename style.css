@@ -93,7 +93,7 @@ nav.menu li:hover ul {
 	display: block;
 }
 
-nav.menu li a:hover {
+nav.menu li ul a:hover {
 	color: #ddd;
 }
 
@@ -350,13 +350,24 @@ section.contact div.gallery {
 	line-height	: 1.625em;
 	font-family	: "Open Sans", "lucida grande", tahoma, sans-serif;
 	font-weight	: 600;
-	-webkit-font-smoothing : antialiased;
+	background 	: url('images/noise.png');
+	-webkit-font-smoothing 	: antialiased;
+	-moz-font-smoothing 	: antialiased;
+	-ms-font-smoothing 		: antialiased;
+	-o-font-smoothing 		: antialiased;
+	font-smoothing 			: antialiased;
+	border-radius: 5px;
 }
 
 section.contact div.gallery a {
 	float		: left;
 	display		: block;
 	margin-right: 10px;
+}
+
+section.contact div.gallery img {
+	display: block;
+	border-radius: 5px;
 }
 
 /* About US */
