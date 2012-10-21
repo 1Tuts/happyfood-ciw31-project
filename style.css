@@ -219,11 +219,13 @@ div.copyright {
 section.address {
 	min-height	: 132px;
 	padding		: 10px;
+	font-family : "Times New Roman", Times, serif;
 }
 
 section.address section.newyork,
 section.california {
 	width : 47%;
+	letter-spacing: 2px;
 }
 
 section.address h4.city {
