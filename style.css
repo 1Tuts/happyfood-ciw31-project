@@ -119,6 +119,7 @@ div.text {
 	padding: 0 15px 10px;
 	/*border-radius:5px;*/
 	background-color: rgba(0,0,0,0.8);
+	font-family : "Times New Roman", Times, serif;
 }
 
 div.text p {
