@@ -29,7 +29,6 @@ div.logo {
 	width	: 166px;
 	height 	: 166px;
 	margin-left: 25px;
-	/*border :2px solid black;*/
 	border-radius: 83px;
 	overflow: hidden;
 }
@@ -226,6 +225,7 @@ div.copyright {
 }
 
 /*Contact*/
+
 section.address {
 	min-height	: 132px;
 	padding		: 10px;
@@ -330,6 +330,10 @@ section.contact ul li h3 {
 	color: white;
 	font-weight: bold;
 	-webkit-transform:scale(1,1.5)
+	-moz-transform:scale(1,1.5)
+	-ms-transform:scale(1,1.5)
+	-o-transform:scale(1,1.5)
+	transform:scale(1,1.5)
 }
 
 section.contact ul li h4 {
