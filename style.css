@@ -281,7 +281,7 @@ form.message textarea.text {
 	background-color: #191919;
 	width: 94%;
 	border: 3px inset gray;
-	color: #999;
+	color: #ddd;
 }
 
 form.message input.send {
