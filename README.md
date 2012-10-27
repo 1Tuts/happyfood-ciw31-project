@@ -22,7 +22,6 @@
 * [**Ali Mihandoost**](http://github.com/Alimd) Teacher  & Technical Manager
 * [**Amir Balali**](https://github.com/amirbll) Project Manager / Developer
 * [**Ehsan Abdolahi**](https://github.com/ehsanab) Designer / Developer
-* [**Hamed Akbari**](https://github.com/HamedAkbari) Designer / Developer
 * [**Ali Aghasizadeh**](http://github.com/AliGH) Technical Advisor
 * [**Mohamad Rahimpoor**](http://github.com/mrahimpoor) Graphic Advisor
 * [**Mohamad Sedaghat**](http://github.com/msedaghat) Business Advisor
