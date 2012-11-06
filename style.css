@@ -105,8 +105,7 @@ nav.menu li ul a:hover {
 }
 
 nav.menu #backc {
-	background-color: #191919;
-	opacity: 0.8;
+	background-color: rgba(10,10,10,0.7);
 }
 
 div.icon {
