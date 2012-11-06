@@ -16,9 +16,8 @@ div.menu {
 	left 	: 0;
 	bottom 	: 0;
 	top 	: 0;
-	width	: 220px;
+	width	: 222px;
 	z-index	: -2;
-	outline		: 2px solid black;
 	min-height	: 650px;
 	padding-top	: 31px;
 	border-left	: 5px solid gray;
