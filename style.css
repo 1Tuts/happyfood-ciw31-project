@@ -5,7 +5,7 @@ body {
 	top      : 0;
 	bottom   : 0;
 	z-index	 :-1;
-	background-image    : url('images/Moriokamen.jpg');
+	background-image    : url('images/1.jpg');
 	background-repeat   : no-repeat;
 	background-size     : cover;
 	background-position : center top;
@@ -180,7 +180,7 @@ section.contact {
 	border-right	: 8px solid gray;
 	overflow-y 	: scroll;
 	overflow-x	: hidden; 
-	z-index		: -5;
+	z-index		: 1;
 }
 
 section.contact > a {
@@ -380,6 +380,7 @@ section.contact div.gallery a {
 	float		: left;
 	display		: block;
 	margin-right: 10px;
+	overflow: hidden;
 }
 
 section.contact div.gallery img {
