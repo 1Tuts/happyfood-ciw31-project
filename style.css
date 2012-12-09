@@ -17,7 +17,7 @@ div.menu {
 	bottom 	: 0;
 	top 	: 0;
 	width	: 222px;
-	z-index	: -2;
+	z-index	: 1;
 	min-height	: 650px;
 	padding-top	: 31px;
 	border-left	: 5px solid gray;
@@ -138,6 +138,7 @@ div.topcorner,
 div.leftcorner,
 div.cornerright,
 div.cornerrightb {
+	z-index	: 2; 
 	position: fixed;
 	background-repeat: no-repeat;
 }
@@ -145,7 +146,6 @@ div.cornerrightb {
 div.ribbon {
 	left 	: 210px;
 	top 	: -10px;
-	z-index	: 2; 
 }
 
 div.topcorner {
@@ -180,7 +180,6 @@ section.contact {
 	border-right	: 8px solid gray;
 	overflow-y 	: scroll;
 	overflow-x	: hidden; 
-	z-index		: 1;
 }
 
 section.contact > a {
